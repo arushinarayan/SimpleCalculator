@@ -1,0 +1,198 @@
+.container{
+  width: 400px;
+  height: 500px;
+  background-color: #f4f4f4;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 5px;
+  /* Center vertically and horizontally */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -250px 0 0 -200px; 
+}
+.result{
+  width: auto;
+  height: 80px;
+  border-bottom: 2px solid;
+}
+.calculate{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  height: 380px;
+}
+button{
+  text-align: center;
+  font-family: 'Inconsolata', monospace;
+  font-size: larger;
+}
+p{
+  text-align:end;
+  color: black;
+  font-family: 'Inconsolata', monospace;
+  font-size: 40px;
+  vertical-align: bottom;
+  text-align: right;
+  padding-right: 30px;
+}
+.clear{
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  margin: 20px 10px 10px 20px;
+  border: 1px solid  black;
+  border-radius: 5px;
+  background-color: #3572db;
+}
+.divide{
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  margin: 20px 20px 10px 10px;
+  border: 1px solid  black;
+  border-radius: 5px;
+  background-color: #777676;
+}
+.multiply{
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  margin: 10px 20px 10px 10px;
+  border: 1px solid  black;
+  border-radius: 5px;
+  background-color: #777676;
+}
+.subtract{
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  margin: 0px 20px 10px 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: #777676;
+}
+.add{
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 4;
+  grid-row-end: 5;
+  margin: 0px 20px 10px 10px;
+  border: 1px solid  black;
+  border-radius: 5px;
+  background-color: #777676;
+}
+.equal{
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 5;
+  grid-row-end: 6;
+  margin: 10px 20px 20px 10px;
+  border: 1px solid  black;
+  border-radius: 5px;
+  background-color: #28d060;
+}
+.seven{
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  margin: 10px 10px 10px 20px;
+  border: 1px solid  black;
+  border-radius: 5px;
+  background-color: #777676;
+}
+.eight{
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  margin: 10px 10px 10px 10px;
+  border: 1px solid  black;
+  border-radius: 5px;
+  background-color: #777676;
+}
+.nine{
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  margin: 10px 10px 10px 10px;
+  border: 1px solid  black;
+  border-radius: 5px;
+  background-color: #777676;
+}
+.four{
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  margin: 0px 10px 10px 20px;
+  border: 1px solid  black;
+  border-radius: 5px;
+  background-color: #777676;
+}
+.five{
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  margin: 0px 10px 10px 10px;
+  border: 1px solid  black;
+  border-radius: 5px;
+  background-color: #777676;
+}
+.six{
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  margin: 0px 10px 10px 10px;
+  border: 1px solid  black;
+  border-radius: 5px;
+  background-color: #777676;
+}
+.one{
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 4;
+  grid-row-end: 5;
+  margin: 0px 10px 10px 20px;
+  border: 1px solid  black;
+  border-radius: 5px;
+  background-color: #777676;
+}
+.two{
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 4;
+  grid-row-end: 5;
+  margin: 0px 10px 10px 10px;
+  border: 1px solid  black;
+  border-radius: 5px;
+  background-color: #777676;
+}
+.three{
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 4;
+  grid-row-end: 5;
+  margin: 0px 10px 10px 10px;
+  border: 1px solid  black;
+  border-radius: 5px;
+  background-color: #777676;
+}
+.zero{
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 5;
+  grid-row-end: 6;
+  margin: 10px 10px 20px 20px;
+  border: 1px solid  black;
+  border-radius: 5px;
+  background-color: #777676;
+}
